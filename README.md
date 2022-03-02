@@ -9,8 +9,6 @@ C-for-media runtime development on Intel's GPU.
 ## Work
 ### DeepLearning software Engineer, Intel  2018-Q4 - Present 
 * Neural network quantization and pruning: QAT and Post-training quantization; PACT; Low-bit quantization; Mixed Precision Quantization
-* Author of [NumericsBench](https://github.com/intel-innersource/frameworks.vpu.models.numerics-bench) which is a VPU numeric Emulator.
-* Author of [nbgraph](https://github.com/intel-sandbox/ai.vpu.arch.flex.nb_contrib.nbgraph) which compiles Openvino IR to compute graph for network accuracy evaluation.
 * Reinforcement Learning and NAS based approach to search optimal model to fit VPU.
 * Academic paper [Channel-wise Hessian Aware trace-Weighted Quantization of Neural Networks](https://arxiv.org/abs/2008.08284) published by [EMC2](https://www.emc2-ai.org/) 
 
