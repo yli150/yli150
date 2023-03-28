@@ -10,7 +10,9 @@ C-for-media runtime development on Intel's GPU.
 ### DeepLearning software Engineer, Intel  2018-Q4 - Present 
 * Neural network quantization and pruning: QAT and Post-training quantization; PACT; Low-bit quantization; Mixed Precision Quantization
 * Reinforcement Learning and NAS based approach to search optimal model to fit VPU.
-* Academic paper [Channel-wise Hessian Aware trace-Weighted Quantization of Neural Networks](https://arxiv.org/abs/2008.08284) published by [EMC2](https://www.emc2-ai.org/) 
+* Academic paper
+  -  [VPU-EM: An Event-based Modeling Framework to Evaluate NPU Performance and Power Efficiency at Scale](https://arxiv.org/abs/2303.10271)
+  -  [Channel-wise Hessian Aware trace-Weighted Quantization of Neural Networks](https://arxiv.org/abs/2008.08284) published by [EMC2](https://www.emc2-ai.org/) 
 
 ### Machine Learning Engineer, Intel  2016-06-01 - 2018 Q4 
 * Focus on deep learning algorithm development on computer vision tasks.
