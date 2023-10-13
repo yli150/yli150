@@ -7,11 +7,21 @@ C-for-media runtime development on Intel's GPU.
 * From 2018 Q4, Victor has been working for VPU Architecture  on various projects, including hardware numeric emulation, neural network low-bit quantization and pruning, vpu performance modelling ..etc. 
 
 ## Work
-### DeepLearning software Engineer, Intel  2018-Q4 - Present 
+
+### AI Software Architecture, Intel 2022-Q1 - Present 
+* AI Software Architecture for multiple generation of Intel NPU product line.
+* Focus on compilation technology to run models efficiently on NPU including layer fusion, vertical fusion, operator tiling, scheduling optimization.
+* LLM performance optimization, mixed precision, flashattention, task pipeline ..etc.
+* Key model performance anlaysis, work with engineering team to identify optimization opportunities and solutions. 
+* Author of nbperf (5-team-member): is a high level abstract compiler to work with VPU-EM for accurate and reliable model performance simulation.
+* Author of numericsbench (3-team-member) : numeric emulation software used for NPU numeric sign-off and validation.
+* Academic paper
+  -  [VPU-EM: An Event-based Modeling Framework to Evaluate NPU Performance and Power Efficiency at Scale](https://arxiv.org/abs/2303.10271)
+
+### DeepLearning software Engineer, Intel  2018-Q4 - 2022-Q1 
 * Neural network quantization and pruning: QAT and Post-training quantization; PACT; Low-bit quantization; Mixed Precision Quantization
 * Reinforcement Learning and NAS based approach to search optimal model to fit VPU.
 * Academic paper
-  -  [VPU-EM: An Event-based Modeling Framework to Evaluate NPU Performance and Power Efficiency at Scale](https://arxiv.org/abs/2303.10271)
   -  [Channel-wise Hessian Aware trace-Weighted Quantization of Neural Networks](https://arxiv.org/abs/2008.08284) published by [EMC2](https://www.emc2-ai.org/) 
 
 ### Machine Learning Engineer, Intel  2016-06-01 - 2018 Q4 
