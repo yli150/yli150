@@ -1,10 +1,10 @@
 # VictorLi
 
 ## Summary
-* Victor [victor.y.li@intel.com](mailto:victor.y.li@intel.com) is a deep learning software engineer from SATG/Flex, quicker learner, passionate about using deep learning to create something interesting!
+* Victor [victor.y.li@intel.com](mailto:victor.y.li@intel.com) is a software architecture of NPU in Intel.
 * Victor got his master degree in EE from ZheJiang University, and joined Intel Flex at 2011. Victor started his career from graphics driver and 
-C-for-media runtime development on Intel's GPU. 
-* From 2018 Q4, Victor has been working for VPU Architecture  on various projects, including hardware numeric emulation, neural network low-bit quantization and pruning, vpu performance modelling ..etc. 
+C-for-media runtime development on Intel's GPU.
+* From 2018 Q4, Victor has been working for VPU Architecture on various projects, including hardware numeric emulation, neural network low-bit quantization and pruning, vpu performance modelling ..etc. 
 
 ## Work
 
@@ -84,12 +84,15 @@ C-for-media runtime development on Intel's GPU.
 * C Programing Language
 
 ## Patents
-* [Facilitating Efficient Communication and Data Processing in Heterogeneous Computing Environment in a Heterogeneous Computing Environment](WO/2017/107118)
-* [Event-driven Framework for GPU Programing](WO/2017/107168)
+* [Malware Detection in Memory](https://patents.google.com/patent/WO2019113843)
+* [Data Stored or Free Space based Fifo Buffer](https://patents.google.com/patent/WO2020061888)
+* [Facilitating Efficient Communication and Data Processing in Heterogeneous Computing Environment in a Heterogeneous Computing Environment](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2017107118)
+* [Event-driven Framework for GPU Programing](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2017107168)
+* [EXECUTION UNIT-SHARED HYBRID TECHNIQUE FOR ACCELERATED COMPUTING ON GRAPHICS PROCESSORS](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2018176435)
 * [Graphics Processing Unit Operation](WO/2017/112403)
-* [GPU-CPU TWO-PATH Memory Copy ](WO/2017/049583)
+* [GPU-CPU TWO-PATH Memory Copy ](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2017049583)
 * [Method and Apparatus to Improve Shared Memory Efficiency](WO/2017/049592)
-* [Apparatus and Method to Improve Memory Access Performance Between Shared Local Memory and System Global Memory ](WO/2016/090536)
+* [Apparatus and Method to Improve Memory Access Performance Between Shared Local Memory and System Global Memory ](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2017166269)
 
 ## Languages
 * Fluent in English
