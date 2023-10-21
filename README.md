@@ -84,6 +84,9 @@ C-for-media runtime development on Intel's GPU.
 * C Programing Language
 
 ## Patents
+* [Apparatus, method, device and medium for accelerating computation of process engine](https://patents.google.com/patent/WO2023092383A1/en?oq=WO2023092383A1)
+* [Methods and apparatus to accelerate convolution](https://patents.google.com/patent/WO2023044707A1/en?oq=WO2023044707A1)
+* [Apparatus and method for reinforcement learning based post-training sparsification](https://patents.google.com/patent/WO2023082278A1/en?oq=WO2023082278A1)
 * [Malware Detection in Memory](https://patents.google.com/patent/WO2019113843)
 * [Data Stored or Free Space based Fifo Buffer](https://patents.google.com/patent/WO2020061888)
 * [Facilitating Efficient Communication and Data Processing in Heterogeneous Computing Environment in a Heterogeneous Computing Environment](https://patentscope.wipo.int/search/zh/detail.jsf?docId=WO2017107118)
