@@ -17,6 +17,7 @@ C-for-media runtime development on Intel's GPU.
 * Author of numericsbench (3-team-member) : numeric emulation software used for NPU numeric sign-off and validation.
 * Academic paper
   -  [VPU-EM: An Event-based Modeling Framework to Evaluate NPU Performance and Power Efficiency at Scale](https://arxiv.org/abs/2303.10271)
+  -  [Neural Architecture Search for Intel Movidius VPU](https://arxiv.org/abs/2305.03739)
 
 ### DeepLearning software Engineer, Intel  2018-Q4 - 2022-Q1 
 * Neural network quantization and pruning: QAT and Post-training quantization; PACT; Low-bit quantization; Mixed Precision Quantization
