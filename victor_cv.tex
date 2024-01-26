@@ -1,0 +1,162 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage{hyperref}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{LI YUANYUAN} % Your name
+\address{+86 15921589231 \\ yuanyuan.li85@gmail.com \\ Location ShangHai \\ Age 38}  % Your phone number and email
+
+\begin{document}
+
+\begin{rSection}{Summary}
+
+{5+ years AI Software Architect of Intel NPU, specialized in NPU architecture exploration and defining (scale from 11Tops to 60 Tops), driving key model optimization through model low-bit quantization, pruning, multiple level parallelism, hardware software co-design.}
+
+{6 years Senior Software engineer of Intel GPU, specialized in GPGPU language c-for-metal-sdk runtime and user model driver development, my responsibilities extended to application end-to-end optimization}
+
+\end{rSection}
+
+
+\begin{rSection}{Education}
+
+{\textbf{Master of Communication Engineering} \hfill ZheJiang University  {2008 - 2011}}
+
+{\textbf{Bachelor of Electronic Information Engineering} \hfill ZheJiang University  {2002 - 2006}}
+
+\end{rSection}
+
+\begin{rSection}{PROFESSIONAL Experience}
+
+\noindent
+\textbf{NPU software/hardware architecture} \hfill Intel 2022-Q1 - Present 
+
+Played a key role in defining the software/hardware architecture for Intel's NPU product line, scaling from 11 Tops to 60 Tops. As a team leader, I led a five-member team in developing a prototype compiler for NPU performance modeling and defining key model KPIs. This initiative provided the capability for swift software/hardware co-design and drove the integration of key compiler algorithms into the production compiler. Additionally, I led a three-member team in developing a numeric emulation library for pre-silicon numeric verification
+
+\begin{itemize}
+\item \textbf{Prototype compiler development}: 
+I led a five-member team in developing a prototype compiler for NPU performance modeling. Our work addressed key challenges including model coverage, KPI reliability, software sustainability, and the implementation of performance algorithms.
+\begin{itemize}
+    \item \textbf{Model coverage} Archived 1000+ models compilation, introduced fuzz tests to improve robustness 
+    \item \textbf{Software Sustainability} Promoted clean code principle and practice, result in 1500+ unit tests, 93+\% code coverage.
+    \item \textbf{CI System} Established a daily/weekly Continuous Integration (CI) system to ensure software release and model performance stability
+\end{itemize}
+
+\item \textbf{Advanced compilation technique development}: 
+Responsible for path finding of advanced compilation technique for efficient inference on NPU, including layer fusion, vertical fusion, operator tiling, prefetch scheduling, etc. 
+\begin{itemize}
+    \item \textbf{LLM} Identify optimization and address the challenges to run LLM (StableDiffusion LLAMAV2 Whisper FLANT5) on NPU, including tensor parallel, pipeline parallel, flash attention, dynamic shape.
+    \item \textbf{Graph Optimization} Graph level operator fusion and erasing, including layout adjustment, memory permutation opt, tensor channel alignment opt. 
+    \item \textbf{Scheduling and Parallelism} Focus on compilation techniques including tensor parallel, layer grouping, layer fusion weight prefetch, pipeline parallel to improve model performance.
+    \item \textbf{KPI definition} Drive key model KPI alignment between arch and engineer team, provide performance gain estimation via simulation tool chain, identify the features and priority to be integrated into production compiler.
+\end{itemize}
+
+\item \textbf{NPU Software and Hardware architecture design}: 
+To explore the next generation of NPU architecture, software and hardware need to be co-designed to unleash the potential of hardware. More than 80\% of TRs related to PPA were modeled and simulated to demonstrate potential gains and costs in terms of power, area, and complexity. 
+
+\begin{itemize}
+    \item \textbf{Dynamic} Hardware-based dynamic shape for transformer, dynamic workload generation and patching.
+    \item \textbf{Area} Balanced area allocation for Cache, SRAM, MAC Array, DSP, DMA.
+    \item \textbf{LUT} LookUpTable based solution to support common activation functions.
+\end{itemize}
+
+\item \textbf{NPU Numeric Emulation library for pre-silicon validation}: 
+I led a three-member team in developing a numeric emulation library for NPU pre-silicon numeric verification. This library was successfully integrated into the production lifecycle
+\begin{itemize}
+    \item \textbf{Operator-level numeric validation} Achieved bit match with RTL/C-model of fixed functions (Convolution/MatMul/Pooling/ADD/Mul), and provided reference implementation of DSP operators. 
+    \item \textbf{Network-level numeric validation} Built a network graph compiler to parse the model and run the end-2-end numeric emulation to verify numeric accuracy metric, ie. Resent50 top1 accuracy on ImageNet. 
+\end{itemize}
+
+\end{itemize}
+
+
+\textbf{Model Compression for NPU} \hfill Intel 2018-Q4 - 2022-Q1
+
+\vspace{4pt}
+
+Responsible for researching and developing model compression algorithms for NPU. Research and adoption of state of the art model compression techniques including low-bit quantization/unstructured pruning/AutoML/NAS, QAT and POT. 
+
+\begin{itemize}
+\item \textbf{Low-bit quantization}:
+Implementing state of the art model quantization techniques, including low-bit quantization methods like PACT and SAWB,  Mixed precision methods including HAQ and HAWQ, Unlinear quantization methods like log-based, outlier-aware and Squantizer. 
+
+\item \textbf{Model pruning}: 
+Implementing state of the art model pruning methods.
+Responsible for providing ultra compressed models for MLPerf inference, including Resnet-50, Mobilenet, SSD-Mobilenet, SSD-Resnet34, Bert and so on. 
+Within 1\% top-1 accuracy drop of Resnet-50, achieved 84\% weight sparsity and 65\% activation sparsity, resulting in \textgreater 2$\times$ acceleration ratio compared to dense model.
+\item \textbf{Network architecture search}: 
+Network architecture search on NPU for better utilization of Hardware performance. Developed super-resolution network that is 6x faster than EDSR with ~7\% better PSNR. 
+Also developed image classification network that is 10\% faster than Mobilenet-V2 with ~5\% better accuracy top-1.
+\end{itemize}
+
+
+\textbf{Computer Vision and Deep Learning Engineer} \hfill Intel 2016-Q1 - 2018-Q1
+
+Worked on deep learning algorithm development on computer vision models. 
+\begin{itemize}
+\item \textbf{Fitness Coach}: Led an project "Personal Fitness Coach Powered by AI" incubated by China I2R.
+\item \textbf{Chip Defects Inspection}: Key developer of a computer vision chip defects inspection system in manufacture.
+\end{itemize}
+
+\textbf{Senior Software Engineer of Intel GPGPU} \hfill Intel 2011-Q1 - 2016-Q1
+
+Responsible for runtime and user model driver development of Intel in-house GPGPU language : \href{<https://www.intel.com/content/www/us/en/developer/tools/open/c-for-metal-sdk/overview.html>}{c-for-metal-sdk}
+Developed graphics driver on multiple mainstream Linux and Windows. Optimized resource management and cross-layer code refactoring.
+
+\begin{itemize}
+
+\item \textbf{Runtime and Driver Development}: The C-for-mdetal sdk runtime and driver  manage surfaces/buffers, kernels, tasks, queues and events. Built the clusters for our daily/weekly CI system and further migrated to Virtual-Machine to accelerate the testing time.
+\item \textbf{Application end-to-end optimization}: Worked with customers to identify the runtime overhead and opportunities to overlap host side (post-processing, surface data copy) and kernel execution on GPU.
+\item \textbf{Python/Java Bindings}: Developed bindings to bridge Android and Numpy/OpenCV use cases.
+
+\end{itemize}
+
+\textbf{Telecom Engineer of Anhui Telecom} \hfill Anhui Telecom 2006-Q3 - 2008-Q2
+
+Worked as a telecommunications engineer, responsible for the design and deployment of telecommunications equipment.
+One year to prepare Graduate Entrance Examination [2007.6-2008.6]
+
+\end{rSection} 
+
+\begin{rSection}{Publications}{}
+[1] Xu Qian, \textbf{Victor Li}, Crews Darren S, "Neural Architecture Search for Intel Movidius VPU", \textit{arxiv 2305.03739}
+
+[2] Xu Qian, \textbf{Victor Li}, Crews Darren S, "Auto Hessian Aware Channel-wise Quantization of Neural Networks", \textit{6th Workshop on Energy Efficient Machine Learning and Cognitive Computing (EMC2 2020)}
+
+[3] Charles Qi, Yi Wang, Hui Wang, Yang Lu, Shiva Shankar Subramanian, Finola Cahill, Conall Tuohy, \textbf{Victor Li}, {Xu Qian}, etc. "VPU-EM: An Event-based Modeling Framework to Evaluate NPU Performance and Power Efficiency at Scale", \textit{arxiv 2303.10271}
+\end{rSection}
+
+\begin{rSection}{Patents}{}
+
+[1] Xu Qian, \textbf{Yuanyuan Li}, Crews Darren S, Zheng Qi, Deepak Mathaikutty, Raymond Sung, Arnab Raha, "Deep Neural Network Accelerator Facilitating Quantized Inference with Reduced Area and Power Consumption", patent filled, in progress
+
+[2] Xu Qian, Haiyun Hong, Peiqing Jiang, \textbf{Yuanyuan Li}, Sijia Lou, "Apparatus, method, device and medium for accelerating computation of process engine", \textbf{WO2023092383A1}
+
+[3] Xu Qian, \textbf{Yuanyuan Li}, Crews Darren S, "Apparatus and method for reinforcement learning based post-training sparsification", \textbf{WO2023082278A1}
+
+[4] \textbf{Yuanyuan Li} Crews Darren S, Yong Jiang, Xu Qian, Peiqing Jiang, Haiyun Hong "Methods and apparatus to accelerate convolution", \textbf{WO2023044707A1}
+
+[5] Danyu BI, Salmin Sultana, \textbf{Yuanyuan Li}, Yong Jiang, Pramod PESARA, Selvakumar PANNEER, Ravi Sahita,  "Malware Detection in Memory", \textbf{WO2019113843}
+
+[6] Yanjie PAN, Yong Jiang, \textbf{Yuanyuan Li}, Yong Zhang,  "Data Stored or Free Space based FIFO Buffer", \textbf{WO2020061888}
+
+[7] \textbf{Yuanyuan Li}, YANG Yuting, JIANG Yong, WANG, Yao, "Event Driven for GPU Programming", \textbf{WO2017107168}
+
+[8] \textbf{Yuanyuan Li}, JIANG Yong, YANG Yuting, YAO Jiajie, LI Guizi, LIN, Lixiang, "Execution Unit Shared Hybrid Technique for Accelerated Computing on Graphics Processors", \textbf{WO2018176435}
+
+[9] \textbf{Yuanyuan Li}, BAI Hai, LI, Guizi, "Graphics Processing Unit Operation", \textbf{WO2017112403}
+
+[10] KONG Lingyi, SHEN Lei, \textbf{Yuanyuan Li}, YANG Yuting, LUEH, Guei-Yuan, "GPU-CPU TWO-PATH Memory Copy", \textbf{WO2017049583}
+
+[11] DU Jianghong, JIANG Yong, SHEN Lei, \textbf{Yuanyuan Li}, LI Ruijia, KONG Lingyi, "Method and Apparatus to Improve Shared Memory Efficiency", \textbf{WO2017/049592}
+
+[12] JIANG, Yong, \textbf{Yuanyuan Li}, DU Jianghong, CHEN, Kuilin, TETZLAFF, Thomas, "Apparatus and Method to Improve Memory Access Performance Between Shared Local Memory and System Global Memory", \textbf{WO2017166269}
+
+[13] \textbf{Yuanyuan Li}, Yong Jiang, Lingyi KONG, "Facilitating efficient communication and data processing across clusters of computing machines in heterogeneous computing environment", \textbf{WO2017107118A1}
+
+
+\end{rSection}
+
+\end{document}
+
